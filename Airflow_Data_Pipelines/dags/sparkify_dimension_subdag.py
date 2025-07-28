@@ -7,7 +7,7 @@ from helpers import SqlQueries
 
 def load_dimension_subdag(
     parent_dag_name,
-    task_id,
+    event_id,
     redshift_conn_id,
     sql_statement,
     delete_load,
